@@ -8,8 +8,6 @@ import {PersistGate} from 'redux-persist/integration/react';
 import {ThemeProvider} from "@mui/material";
 import theme from "./theme";
 import {addInterceptors} from "./axiosApi";
-import {GoogleOAuthProvider} from "@react-oauth/google";
-import {GOOGLE_CLIENT_ID} from "./constans";
 
 addInterceptors(store);
 
